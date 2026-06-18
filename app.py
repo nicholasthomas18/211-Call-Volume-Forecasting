@@ -80,7 +80,7 @@ def load_data() -> pd.DataFrame:
     )
     df['InteractionDate'] = (
         pd.to_datetime(df['InteractionDate'], utc=True)
-        .dt.tz_convert('US/Mountain')
+        .dt.tz_convert('America/Denver')
         .dt.tz_localize(None)
     )
     return df
