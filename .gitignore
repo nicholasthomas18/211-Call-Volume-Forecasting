@@ -1,0 +1,20 @@
+# Data files — keep off GitHub (real call records)
+211FactCalls.csv
+211FactCalls_sample.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/
+
+# Claude
+CLAUDE.md

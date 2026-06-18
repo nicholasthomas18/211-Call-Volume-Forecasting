@@ -1,0 +1,7 @@
+streamlit
+prophet
+holidays
+pandas
+numpy
+matplotlib
+plotly
